@@ -20,8 +20,8 @@ window.fbAsyncInit = function() {
 }
 
 //Redirecciones para después de iniciar sesión o salir de la aplicación
-var url_after_login = "https://alu0100885453.github.io/proyecto/";
-var url_after_logout = "https://google.es";
+var url_after_login = "https://alu0100885453.github.io/proyecto/index.html";
+var url_after_logout = "https://alu0100885453.github.io/proyecto/login.html";
   
 /* Función para el botón de iniciar sesión con Facebook */
 function FBBtnLogin(){
