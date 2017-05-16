@@ -27,9 +27,17 @@
   <script type="text/javascript" src="js/temperature.js"></script>
   <script type="text/javascript" src="js/distancias.js"></script>
   <script type="text/javascript" src="js/volumen.js"></script>
-  
+  <script src="facebook.js"></script>
   <!-- FAVICON -->
   <link rel="icon" type="image/png" href="images/calcuworld.ico">
+
+<script>
+window.onload = function(){
+/* Comprueba el estado del usuario, incluye esta función en todas la páginas donde el usuario 
+ deba estar conectado */
+getStateFromUser();
+}
+</script>
 
 </head>
 <body>
