@@ -64,14 +64,17 @@ function FBBtnLogout(){
    //Conectado
 	   console.log(response.status);
   if (response.status === 'connected') {
+	  console.log('connected');
 	window.location.href = url_after_login;
   } 
   //No autorizado para acceder a la aplicación
   else if (response.status === 'not_authorized'){
+	  console.log('not_authorized');
 	status.innerHTML = "Por favor, tienes que autenticarte con Facebook";
   } 
   //No tiene sesión abierta en Facebook
   else {
+	  console.log('no session');
 	status.innerHTML = "No has iniciado sesión en Facebook";
   }
  });
