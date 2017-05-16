@@ -59,8 +59,10 @@ function FBBtnLogout(){
  function FBLogin()
  {
    var status = document.getElementById("status");
+	 console.log('status');
    FB.getLoginStatus(function(response) { 
    //Conectado
+	   console.log('response.status');
   if (response.status === 'connected') {
 	window.location.href = url_after_login;
   } 
