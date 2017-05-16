@@ -15,7 +15,7 @@ window.fbAsyncInit = function() {
 	cookie	   : true,
     status     : true,
     xfbml      : true,
-    version    : 'v2.1'
+    version    : 'v2.9'
   });
 }
 
